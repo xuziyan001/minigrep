@@ -1,0 +1,12 @@
+[package]
+name = "minigrep_shits_always_happen"
+version = "0.1.0"
+authors = ["XuZiyan <xuziyan@p1.com>"]
+edition = "2018"
+license = "MIT"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
